@@ -61,7 +61,7 @@ var PointOBJ = {
      * Create a point.
      * @param {number} x - The x value.
      * @param {number} y - The y value.
-     * @memberof es6#
+     * @memberof es
      */
     constructor: function (x, y) {
         // ...

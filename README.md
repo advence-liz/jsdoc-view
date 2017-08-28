@@ -6,6 +6,13 @@ jsdoc 语法类似javadoc开始于1999 Netscape/Mozilla，基本各大IDE都集�
 - [why use jsdoc](http://blog.fusioncharts.com/2013/12/jsdoc-vs-yuidoc-vs-doxx-vs-docco-choosing-a-javascript-documentation-generator/)
 
 ## jsodc-tip
+- eslint 支持检查jsdoc 语法添加rule
+```javascript
+"valid-jsdoc": [
+			2,
+			{ "requireReturn": false }
+		]
+```
 ```javascript
 /** Class representing a point. 
  * @class   这个名字如果不写则设定为后面的class|function|object ,如果指定名字 后面必须显示的 使用memberof 指定从属关系

@@ -5,17 +5,24 @@
  */
 
 
-var li=new Array();
+var li = new Array();
 
 /** Class representing a point. 
  * @class
  * @description 
  * # [point](https://www.baidu.com)
- * point ==============
+ * point 虽然使用了markdown 但是生成了导航
  * ## init
  * init-------------------
  * ## exit
  * exit ----------------
+ * @example 
+ * var liz=fun("eee");
+ *   this.insert = function (arg, index) {
+ *           data_store.splice(index, 0, arg);
+ *           this.length++;
+ *           return this;
+ *       };
  * @memberof  es6
  * 
 */
